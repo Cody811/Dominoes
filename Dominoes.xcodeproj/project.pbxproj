@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		122CCD791EF2F3B400D45136 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122CCD781EF2F3B400D45136 /* AppDelegate.swift */; };
+		122CCD7B1EF2F3B500D45136 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 122CCD7A1EF2F3B500D45136 /* GameScene.sks */; };
+		122CCD7D1EF2F3B500D45136 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 122CCD7C1EF2F3B500D45136 /* Actions.sks */; };
+		122CCD7F1EF2F3B500D45136 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122CCD7E1EF2F3B500D45136 /* GameScene.swift */; };
+		122CCD811EF2F3B500D45136 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122CCD801EF2F3B500D45136 /* GameViewController.swift */; };
+		122CCD841EF2F3B500D45136 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 122CCD821EF2F3B500D45136 /* Main.storyboard */; };
+		122CCD861EF2F3B500D45136 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 122CCD851EF2F3B500D45136 /* Assets.xcassets */; };
+		122CCD891EF2F3B500D45136 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 122CCD871EF2F3B500D45136 /* LaunchScreen.storyboard */; };
+		122CCD941EF2F3B500D45136 /* DominoesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122CCD931EF2F3B500D45136 /* DominoesTests.swift */; };
+		122CCD9F1EF2F3B500D45136 /* DominoesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122CCD9E1EF2F3B500D45136 /* DominoesUITests.swift */; };
+		122CCDAD1EF384BB00D45136 /* Dominoe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122CCDAC1EF384BB00D45136 /* Dominoe.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		122CCD901EF2F3B500D45136 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 122CCD6D1EF2F3B400D45136 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 122CCD741EF2F3B400D45136;
+			remoteInfo = Dominoes;
+		};
+		122CCD9B1EF2F3B500D45136 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 122CCD6D1EF2F3B400D45136 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 122CCD741EF2F3B400D45136;
+			remoteInfo = Dominoes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		122CCD751EF2F3B400D45136 /* Dominoes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dominoes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		122CCD781EF2F3B400D45136 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		122CCD7A1EF2F3B500D45136 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		122CCD7C1EF2F3B500D45136 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		122CCD7E1EF2F3B500D45136 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		122CCD801EF2F3B500D45136 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		122CCD831EF2F3B500D45136 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		122CCD851EF2F3B500D45136 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		122CCD881EF2F3B500D45136 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		122CCD8A1EF2F3B500D45136 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		122CCD8F1EF2F3B500D45136 /* DominoesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DominoesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		122CCD931EF2F3B500D45136 /* DominoesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DominoesTests.swift; sourceTree = "<group>"; };
+		122CCD951EF2F3B500D45136 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		122CCD9A1EF2F3B500D45136 /* DominoesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DominoesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		122CCD9E1EF2F3B500D45136 /* DominoesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DominoesUITests.swift; sourceTree = "<group>"; };
+		122CCDA01EF2F3B500D45136 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		122CCDAC1EF384BB00D45136 /* Dominoe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dominoe.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		122CCD721EF2F3B400D45136 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		122CCD8C1EF2F3B500D45136 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		122CCD971EF2F3B500D45136 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		122CCD6C1EF2F3B400D45136 = {
+			isa = PBXGroup;
+			children = (
+				122CCD771EF2F3B400D45136 /* Dominoes */,
+				122CCD921EF2F3B500D45136 /* DominoesTests */,
+				122CCD9D1EF2F3B500D45136 /* DominoesUITests */,
+				122CCD761EF2F3B400D45136 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		122CCD761EF2F3B400D45136 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				122CCD751EF2F3B400D45136 /* Dominoes.app */,
+				122CCD8F1EF2F3B500D45136 /* DominoesTests.xctest */,
+				122CCD9A1EF2F3B500D45136 /* DominoesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		122CCD771EF2F3B400D45136 /* Dominoes */ = {
+			isa = PBXGroup;
+			children = (
+				122CCD781EF2F3B400D45136 /* AppDelegate.swift */,
+				122CCD7A1EF2F3B500D45136 /* GameScene.sks */,
+				122CCD7C1EF2F3B500D45136 /* Actions.sks */,
+				122CCD7E1EF2F3B500D45136 /* GameScene.swift */,
+				122CCD801EF2F3B500D45136 /* GameViewController.swift */,
+				122CCD821EF2F3B500D45136 /* Main.storyboard */,
+				122CCD851EF2F3B500D45136 /* Assets.xcassets */,
+				122CCD871EF2F3B500D45136 /* LaunchScreen.storyboard */,
+				122CCD8A1EF2F3B500D45136 /* Info.plist */,
+				122CCDAC1EF384BB00D45136 /* Dominoe.swift */,
+			);
+			path = Dominoes;
+			sourceTree = "<group>";
+		};
+		122CCD921EF2F3B500D45136 /* DominoesTests */ = {
+			isa = PBXGroup;
+			children = (
+				122CCD931EF2F3B500D45136 /* DominoesTests.swift */,
+				122CCD951EF2F3B500D45136 /* Info.plist */,
+			);
+			path = DominoesTests;
+			sourceTree = "<group>";
+		};
+		122CCD9D1EF2F3B500D45136 /* DominoesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				122CCD9E1EF2F3B500D45136 /* DominoesUITests.swift */,
+				122CCDA01EF2F3B500D45136 /* Info.plist */,
+			);
+			path = DominoesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		122CCD741EF2F3B400D45136 /* Dominoes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 122CCDA31EF2F3B500D45136 /* Build configuration list for PBXNativeTarget "Dominoes" */;
+			buildPhases = (
+				122CCD711EF2F3B400D45136 /* Sources */,
+				122CCD721EF2F3B400D45136 /* Frameworks */,
+				122CCD731EF2F3B400D45136 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dominoes;
+			productName = Dominoes;
+			productReference = 122CCD751EF2F3B400D45136 /* Dominoes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		122CCD8E1EF2F3B500D45136 /* DominoesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 122CCDA61EF2F3B500D45136 /* Build configuration list for PBXNativeTarget "DominoesTests" */;
+			buildPhases = (
+				122CCD8B1EF2F3B500D45136 /* Sources */,
+				122CCD8C1EF2F3B500D45136 /* Frameworks */,
+				122CCD8D1EF2F3B500D45136 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				122CCD911EF2F3B500D45136 /* PBXTargetDependency */,
+			);
+			name = DominoesTests;
+			productName = DominoesTests;
+			productReference = 122CCD8F1EF2F3B500D45136 /* DominoesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		122CCD991EF2F3B500D45136 /* DominoesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 122CCDA91EF2F3B500D45136 /* Build configuration list for PBXNativeTarget "DominoesUITests" */;
+			buildPhases = (
+				122CCD961EF2F3B500D45136 /* Sources */,
+				122CCD971EF2F3B500D45136 /* Frameworks */,
+				122CCD981EF2F3B500D45136 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				122CCD9C1EF2F3B500D45136 /* PBXTargetDependency */,
+			);
+			name = DominoesUITests;
+			productName = DominoesUITests;
+			productReference = 122CCD9A1EF2F3B500D45136 /* DominoesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		122CCD6D1EF2F3B400D45136 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Cody Edgington";
+				TargetAttributes = {
+					122CCD741EF2F3B400D45136 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 48PZYEFXWX;
+						ProvisioningStyle = Automatic;
+					};
+					122CCD8E1EF2F3B500D45136 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 48PZYEFXWX;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 122CCD741EF2F3B400D45136;
+					};
+					122CCD991EF2F3B500D45136 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 48PZYEFXWX;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 122CCD741EF2F3B400D45136;
+					};
+				};
+			};
+			buildConfigurationList = 122CCD701EF2F3B400D45136 /* Build configuration list for PBXProject "Dominoes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 122CCD6C1EF2F3B400D45136;
+			productRefGroup = 122CCD761EF2F3B400D45136 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				122CCD741EF2F3B400D45136 /* Dominoes */,
+				122CCD8E1EF2F3B500D45136 /* DominoesTests */,
+				122CCD991EF2F3B500D45136 /* DominoesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		122CCD731EF2F3B400D45136 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				122CCD841EF2F3B500D45136 /* Main.storyboard in Resources */,
+				122CCD7B1EF2F3B500D45136 /* GameScene.sks in Resources */,
+				122CCD861EF2F3B500D45136 /* Assets.xcassets in Resources */,
+				122CCD891EF2F3B500D45136 /* LaunchScreen.storyboard in Resources */,
+				122CCD7D1EF2F3B500D45136 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		122CCD8D1EF2F3B500D45136 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		122CCD981EF2F3B500D45136 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		122CCD711EF2F3B400D45136 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				122CCD7F1EF2F3B500D45136 /* GameScene.swift in Sources */,
+				122CCD811EF2F3B500D45136 /* GameViewController.swift in Sources */,
+				122CCD791EF2F3B400D45136 /* AppDelegate.swift in Sources */,
+				122CCDAD1EF384BB00D45136 /* Dominoe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		122CCD8B1EF2F3B500D45136 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				122CCD941EF2F3B500D45136 /* DominoesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		122CCD961EF2F3B500D45136 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				122CCD9F1EF2F3B500D45136 /* DominoesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		122CCD911EF2F3B500D45136 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 122CCD741EF2F3B400D45136 /* Dominoes */;
+			targetProxy = 122CCD901EF2F3B500D45136 /* PBXContainerItemProxy */;
+		};
+		122CCD9C1EF2F3B500D45136 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 122CCD741EF2F3B400D45136 /* Dominoes */;
+			targetProxy = 122CCD9B1EF2F3B500D45136 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		122CCD821EF2F3B500D45136 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				122CCD831EF2F3B500D45136 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		122CCD871EF2F3B500D45136 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				122CCD881EF2F3B500D45136 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		122CCDA11EF2F3B500D45136 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		122CCDA21EF2F3B500D45136 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		122CCDA41EF2F3B500D45136 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 48PZYEFXWX;
+				INFOPLIST_FILE = Dominoes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alloy.Dominoes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		122CCDA51EF2F3B500D45136 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 48PZYEFXWX;
+				INFOPLIST_FILE = Dominoes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alloy.Dominoes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		122CCDA71EF2F3B500D45136 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 48PZYEFXWX;
+				INFOPLIST_FILE = DominoesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alloy.DominoesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dominoes.app/Dominoes";
+			};
+			name = Debug;
+		};
+		122CCDA81EF2F3B500D45136 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 48PZYEFXWX;
+				INFOPLIST_FILE = DominoesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alloy.DominoesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dominoes.app/Dominoes";
+			};
+			name = Release;
+		};
+		122CCDAA1EF2F3B500D45136 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 48PZYEFXWX;
+				INFOPLIST_FILE = DominoesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alloy.DominoesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Dominoes;
+			};
+			name = Debug;
+		};
+		122CCDAB1EF2F3B500D45136 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 48PZYEFXWX;
+				INFOPLIST_FILE = DominoesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Alloy.DominoesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Dominoes;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		122CCD701EF2F3B400D45136 /* Build configuration list for PBXProject "Dominoes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				122CCDA11EF2F3B500D45136 /* Debug */,
+				122CCDA21EF2F3B500D45136 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		122CCDA31EF2F3B500D45136 /* Build configuration list for PBXNativeTarget "Dominoes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				122CCDA41EF2F3B500D45136 /* Debug */,
+				122CCDA51EF2F3B500D45136 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		122CCDA61EF2F3B500D45136 /* Build configuration list for PBXNativeTarget "DominoesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				122CCDA71EF2F3B500D45136 /* Debug */,
+				122CCDA81EF2F3B500D45136 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		122CCDA91EF2F3B500D45136 /* Build configuration list for PBXNativeTarget "DominoesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				122CCDAA1EF2F3B500D45136 /* Debug */,
+				122CCDAB1EF2F3B500D45136 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 122CCD6D1EF2F3B400D45136 /* Project object */;
+}
